@@ -1,0 +1,19 @@
+{
+  "name": "graphql-over-websockets",
+  "version": "1.0.0",
+  "description": "A simple example of GraphQL implemenation over WebSockets",
+  "scripts": {
+    "client:start": "npx live-server --port=3000 --entry-file=GraphiQL.html --watch=GraphiQL.html --host=localhost",
+    "server:start": "ts-node src/index.ts"
+  },
+  "author": "",
+  "devDependencies": {
+    "@types/ws": "^8.2.2",
+    "ts-node": "10.4.0"
+  },
+  "dependencies": {
+    "graphql": "16.2.0",
+    "graphql-ws": "5.5.5",
+    "ws": "^8.4.0"
+  }
+}
